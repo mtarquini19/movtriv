@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Movie Trivia!</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main class="quizArea">
+        <header class="mainHeader">
+            <h1>It's Time For a POP QUIZNOS!</h1>
+            <br>
+                <h3>If you wish to participate, your movie knowledge will be tested</h3>
+                <h3>You will have 90 seconds to answer as many questions as you can</h3>
+            <br>
+            <span id="timerArea"></span>
+        </header>
+        <section id="questionsContainer" class="hide">
+            <div id="question"></div>
+            <div id="answers" class="buttonArea"></div>
+        </section>
+        <section class="scores">
+            <div id="scoreArea" class="hide"></div>
+        </section>
+        <section class="controls">
+            <button class="start" id="startButton">START</button>
+            <button class="btn" id="showScoresButton">CHECK LEADERBOARD</button>
+            <br />
+            <div id="scoreArea" class="hide">
+                <span id="scoreDisplay"></span>
+                <input type="text" name="initials" id="initials" />
+                <button id="submitScore" class="submit">SUBMIT</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
