@@ -8,5 +8,5 @@
 ![firstquestion](images/firstquest.png)
 
 * leaderboard displaying high scores
-![leaderboard](images/leaders.pnh)
+![leaderboard](images/leaders.png)
 
